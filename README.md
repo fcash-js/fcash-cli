@@ -1,4 +1,4 @@
-Fcore CLI
+Fcash CLI
 ==========
 
 [![NPM Package](https://img.shields.io/npm/v/bitcore-cli.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-cli)
