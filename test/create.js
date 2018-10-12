@@ -53,9 +53,9 @@ describe('#create', function() {
   });
 
   it('will create scaffold files', function() {
-    delete process.env.BITCORENODE_DIR;
-    delete process.env.BITCORENODE_NETWORK;
-    delete process.env.BITCORENODE_PORT;
+    delete process.env.FCASHNODE_DIR;
+    delete process.env.FCASHNODE_NETWORK;
+    delete process.env.FCASHNODE_PORT;
 
     create({
       cwd: testDir,
@@ -68,7 +68,7 @@ describe('#create', function() {
         throw err;
       }
 
-      var configPath = testDir + '/mynode/bitcore-node.json';
+      var configPath = testDir + '/mynode/fcash-node.json';
       var packagePath = testDir + '/mynode/package.json';
 
       should.equal(fs.existsSync(configPath), true);

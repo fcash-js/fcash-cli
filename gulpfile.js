@@ -1,3 +1,3 @@
-var bitcoreTasks = require('bitcore-build');
+var fcashTasks = require('fcash-build');
 
-bitcoreTasks('cli', {skipBrowser: true});
+fcashTasks('cli', {skipBrowser: true});

@@ -1,12 +1,12 @@
 {
-  "name": "bitcore-cli",
-  "version": "0.1.0",
-  "description": "Bitcore executables to run and configure a daemon.",
-  "author": "BitPay <dev@bitpay.com>",
+  "name": "fcash-cli",
+  "version": "0.1.1",
+  "description": "fcash-base executables to run and configure a daemon.",
+  "author": "Fcash <dev@fcash.cash>",
   "main": "index.js",
   "bin": {
-    "bitcore": "./bin/bitcore",
-    "bitcored": "./bin/bitcored"
+    "fcash-base": "./bin/fcash-base",
+    "fcash-based": "./bin/fcash-based"
   },
   "scripts": {
     "lint": "gulp lint",
@@ -20,24 +20,24 @@
     },
     {
       "name": "Chris Kleeschulte",
-      "email": "chrisk@bitpay.com"
+      "email": "chrisk@fcash.cash"
     },
     {
       "name": "Patrick Nagurny",
-      "email": "patrick@bitpay.com"
+      "email": "patrick@fcash.cash"
     },
     {
       "name": "Stephen Pair",
-      "email": "stephen@bitpay.com"
+      "email": "stephen@fcash.cash"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-cli.git"
+    "url": "https://github.com/fcash-js/fcash-cli.git"
   },
   "dependencies": {
     "async": "^1.4.2",
-    "bitcore-lib": "^0.13.7",
+    "fcash-base-lib": "^0.13.7",
     "commander": "^2.8.1",
     "liftoff": "^2.2.0",
     "mkdirp": "^0.5.1",
@@ -45,7 +45,7 @@
     "semver": "^5.0.3"
   },
   "devDependencies": {
-    "bitcore-build": "bitpay/bitcore-build",
+    "fcash-base-build": "fcash/fcash-build",
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.8.10",
